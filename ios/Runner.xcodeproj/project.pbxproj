@@ -15,11 +15,12 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		9855DDD82A7A87FD003F347A /* UnityLibrary in Resources */ = {isa = PBXBuildFile; fileRef = 9855DDD72A7A87FD003F347A /* UnityLibrary */; };
-		9855DDE62A7A8B6B003F347A /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDE52A7A8B4F003F347A /* UnityFramework.framework */; };
-		9855DDE72A7A8B6B003F347A /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDE52A7A8B4F003F347A /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9855DDEC2A7A8BD7003F347A /* VuforiaEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */; };
-		9855DDED2A7A8BD7003F347A /* VuforiaEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9855DDEF2A7A8C9E003F347A /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 9855DDEE2A7A8C9E003F347A /* Data */; };
+		9855DDF42A7A9DE5003F347A /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDE52A7A8B4F003F347A /* UnityFramework.framework */; };
+		9855DDF52A7A9DE5003F347A /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDE52A7A8B4F003F347A /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9855DDF82A7A9E1A003F347A /* VuforiaEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */; };
+		9855DDF92A7A9E1A003F347A /* VuforiaEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9855DDFB2A7A9E2D003F347A /* UnityDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */; };
+		9855DDFC2A7A9E2D003F347A /* UnityDriver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,14 +55,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
+		9855DDF62A7A9DE5003F347A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9855DDE72A7A8B6B003F347A /* UnityFramework.framework in Embed Frameworks */,
-				9855DDED2A7A8BD7003F347A /* VuforiaEngine.framework in Embed Frameworks */,
+				9855DDF52A7A9DE5003F347A /* UnityFramework.framework in Embed Frameworks */,
+				9855DDFC2A7A9E2D003F347A /* UnityDriver.framework in Embed Frameworks */,
+				9855DDF92A7A9E1A003F347A /* VuforiaEngine.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +90,41 @@
 		9855DDDA2A7A8B4F003F347A /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "UnityLibrary/Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
 		9855DDE82A7A8B90003F347A /* VuforiaEngine */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = VuforiaEngine; path = UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework/VuforiaEngine; sourceTree = "<group>"; };
 		9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VuforiaEngine.framework; path = UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework; sourceTree = "<group>"; };
-		9855DDEE2A7A8C9E003F347A /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		9855DDF72A7A9DF8003F347A /* com.ptc.vuforia.engine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = com.ptc.vuforia.engine; path = UnityLibrary/Frameworks/com.ptc.vuforia.engine; sourceTree = "<group>"; };
+		9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityDriver.framework; path = UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/UnityDriver.framework; sourceTree = "<group>"; };
+		9855DDFF2A7A9E48003F347A /* TypesInScenes.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TypesInScenes.xml; sourceTree = "<group>"; };
+		9855DE002A7A9E48003F347A /* SerializedTypes.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SerializedTypes.xml; sourceTree = "<group>"; };
+		9855DE022A7A9E48003F347A /* Newtonsoft.Json.dll-resources.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Newtonsoft.Json.dll-resources.dat"; sourceTree = "<group>"; };
+		9855DE032A7A9E48003F347A /* mscorlib.dll-resources.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mscorlib.dll-resources.dat"; sourceTree = "<group>"; };
+		9855DE042A7A9E48003F347A /* UnityLinkerToEditorData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UnityLinkerToEditorData.json; sourceTree = "<group>"; };
+		9855DE072A7A9E48003F347A /* machine.config */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = machine.config; sourceTree = "<group>"; };
+		9855DE082A7A9E48003F347A /* EditorToUnityLinkerData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EditorToUnityLinkerData.json; sourceTree = "<group>"; };
+		9855DE092A7A9E48003F347A /* response.rsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = response.rsp; sourceTree = "<group>"; };
+		9855DE0B2A7A9E48003F347A /* global-metadata.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "global-metadata.dat"; sourceTree = "<group>"; };
+		9855DE0C2A7A9E48003F347A /* globalgamemanagers */ = {isa = PBXFileReference; lastKnownFileType = file; path = globalgamemanagers; sourceTree = "<group>"; };
+		9855DE0D2A7A9E48003F347A /* boot.config */ = {isa = PBXFileReference; lastKnownFileType = text; path = boot.config; sourceTree = "<group>"; };
+		9855DE0E2A7A9E48003F347A /* RuntimeInitializeOnLoads.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RuntimeInitializeOnLoads.json; sourceTree = "<group>"; };
+		9855DE0F2A7A9E48003F347A /* resources.assets */ = {isa = PBXFileReference; lastKnownFileType = file; path = resources.assets; sourceTree = "<group>"; };
+		9855DE112A7A9E48003F347A /* unity_builtin_extra */ = {isa = PBXFileReference; lastKnownFileType = file; path = unity_builtin_extra; sourceTree = "<group>"; };
+		9855DE122A7A9E48003F347A /* unity default resources */ = {isa = PBXFileReference; lastKnownFileType = file; path = "unity default resources"; sourceTree = "<group>"; };
+		9855DE132A7A9E48003F347A /* ScriptingAssemblies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ScriptingAssemblies.json; sourceTree = "<group>"; };
+		9855DE142A7A9E48003F347A /* sharedassets0.assets.resS */ = {isa = PBXFileReference; lastKnownFileType = file; path = sharedassets0.assets.resS; sourceTree = "<group>"; };
+		9855DE152A7A9E48003F347A /* sharedassets0.assets */ = {isa = PBXFileReference; lastKnownFileType = file; path = sharedassets0.assets; sourceTree = "<group>"; };
+		9855DE162A7A9E48003F347A /* level0.resS */ = {isa = PBXFileReference; lastKnownFileType = text; path = level0.resS; sourceTree = "<group>"; };
+		9855DE172A7A9E48003F347A /* level0 */ = {isa = PBXFileReference; lastKnownFileType = file; path = level0; sourceTree = "<group>"; };
+		9855DE1A2A7A9E48003F347A /* struve.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = struve.mp4; sourceTree = "<group>"; };
+		9855DE1B2A7A9E48003F347A /* tekstilesInstitutas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tekstilesInstitutas.mp4; sourceTree = "<group>"; };
+		9855DE1C2A7A9E48003F347A /* vepriai.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vepriai.mp4; sourceTree = "<group>"; };
+		9855DE1D2A7A9E48003F347A /* zemaitkiemis.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zemaitkiemis.mp4; sourceTree = "<group>"; };
+		9855DE1E2A7A9E48003F347A /* ciurlionioObservatorija.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ciurlionioObservatorija.mp4; sourceTree = "<group>"; };
+		9855DE1F2A7A9E48003F347A /* birutesKalnas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = birutesKalnas.mp4; sourceTree = "<group>"; };
+		9855DE202A7A9E48003F347A /* nanoAvionics.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nanoAvionics.mp4; sourceTree = "<group>"; };
+		9855DE212A7A9E48003F347A /* observatorijaKaune.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = observatorijaKaune.mp4; sourceTree = "<group>"; };
+		9855DE222A7A9E48003F347A /* andrioniskis.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = andrioniskis.mp4; sourceTree = "<group>"; };
+		9855DE232A7A9E48003F347A /* vuObservatorija.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vuObservatorija.mp4; sourceTree = "<group>"; };
+		9855DE252A7A9E48003F347A /* Kosmosas.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kosmosas.dat; sourceTree = "<group>"; };
+		9855DE262A7A9E48003F347A /* Kosmosas.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Kosmosas.xml; sourceTree = "<group>"; };
+		9855DE272A7A9E48003F347A /* globalgamemanagers.assets */ = {isa = PBXFileReference; lastKnownFileType = file; path = globalgamemanagers.assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +132,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9855DDE62A7A8B6B003F347A /* UnityFramework.framework in Frameworks */,
-				9855DDEC2A7A8BD7003F347A /* VuforiaEngine.framework in Frameworks */,
+				9855DDF42A7A9DE5003F347A /* UnityFramework.framework in Frameworks */,
+				9855DDFB2A7A9E2D003F347A /* UnityDriver.framework in Frameworks */,
+				9855DDF82A7A9E1A003F347A /* VuforiaEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +184,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				9855DDEE2A7A8C9E003F347A /* Data */,
+				9855DDFD2A7A9E48003F347A /* Data */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
@@ -163,6 +200,8 @@
 		9855DDD92A7A8B4E003F347A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */,
+				9855DDF72A7A9DF8003F347A /* com.ptc.vuforia.engine */,
 				9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */,
 				9855DDE82A7A8B90003F347A /* VuforiaEngine */,
 				9855DDDA2A7A8B4F003F347A /* Unity-iPhone.xcodeproj */,
@@ -178,6 +217,118 @@
 				9855DDE52A7A8B4F003F347A /* UnityFramework.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9855DDFD2A7A9E48003F347A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9855DDFE2A7A9E48003F347A /* Managed */,
+				9855DE0C2A7A9E48003F347A /* globalgamemanagers */,
+				9855DE0D2A7A9E48003F347A /* boot.config */,
+				9855DE0E2A7A9E48003F347A /* RuntimeInitializeOnLoads.json */,
+				9855DE0F2A7A9E48003F347A /* resources.assets */,
+				9855DE102A7A9E48003F347A /* Resources */,
+				9855DE122A7A9E48003F347A /* unity default resources */,
+				9855DE132A7A9E48003F347A /* ScriptingAssemblies.json */,
+				9855DE142A7A9E48003F347A /* sharedassets0.assets.resS */,
+				9855DE152A7A9E48003F347A /* sharedassets0.assets */,
+				9855DE162A7A9E48003F347A /* level0.resS */,
+				9855DE172A7A9E48003F347A /* level0 */,
+				9855DE182A7A9E48003F347A /* Raw */,
+				9855DE272A7A9E48003F347A /* globalgamemanagers.assets */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9855DDFE2A7A9E48003F347A /* Managed */ = {
+			isa = PBXGroup;
+			children = (
+				9855DDFF2A7A9E48003F347A /* TypesInScenes.xml */,
+				9855DE002A7A9E48003F347A /* SerializedTypes.xml */,
+				9855DE012A7A9E48003F347A /* Resources */,
+				9855DE042A7A9E48003F347A /* UnityLinkerToEditorData.json */,
+				9855DE052A7A9E48003F347A /* mono */,
+				9855DE082A7A9E48003F347A /* EditorToUnityLinkerData.json */,
+				9855DE092A7A9E48003F347A /* response.rsp */,
+				9855DE0A2A7A9E48003F347A /* Metadata */,
+			);
+			path = Managed;
+			sourceTree = "<group>";
+		};
+		9855DE012A7A9E48003F347A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9855DE022A7A9E48003F347A /* Newtonsoft.Json.dll-resources.dat */,
+				9855DE032A7A9E48003F347A /* mscorlib.dll-resources.dat */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9855DE052A7A9E48003F347A /* mono */ = {
+			isa = PBXGroup;
+			children = (
+				9855DE062A7A9E48003F347A /* 4.0 */,
+			);
+			path = mono;
+			sourceTree = "<group>";
+		};
+		9855DE062A7A9E48003F347A /* 4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				9855DE072A7A9E48003F347A /* machine.config */,
+			);
+			path = 4.0;
+			sourceTree = "<group>";
+		};
+		9855DE0A2A7A9E48003F347A /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				9855DE0B2A7A9E48003F347A /* global-metadata.dat */,
+			);
+			path = Metadata;
+			sourceTree = "<group>";
+		};
+		9855DE102A7A9E48003F347A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9855DE112A7A9E48003F347A /* unity_builtin_extra */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9855DE182A7A9E48003F347A /* Raw */ = {
+			isa = PBXGroup;
+			children = (
+				9855DE192A7A9E48003F347A /* Video */,
+				9855DE242A7A9E48003F347A /* Vuforia */,
+			);
+			path = Raw;
+			sourceTree = "<group>";
+		};
+		9855DE192A7A9E48003F347A /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				9855DE1A2A7A9E48003F347A /* struve.mp4 */,
+				9855DE1B2A7A9E48003F347A /* tekstilesInstitutas.mp4 */,
+				9855DE1C2A7A9E48003F347A /* vepriai.mp4 */,
+				9855DE1D2A7A9E48003F347A /* zemaitkiemis.mp4 */,
+				9855DE1E2A7A9E48003F347A /* ciurlionioObservatorija.mp4 */,
+				9855DE1F2A7A9E48003F347A /* birutesKalnas.mp4 */,
+				9855DE202A7A9E48003F347A /* nanoAvionics.mp4 */,
+				9855DE212A7A9E48003F347A /* observatorijaKaune.mp4 */,
+				9855DE222A7A9E48003F347A /* andrioniskis.mp4 */,
+				9855DE232A7A9E48003F347A /* vuObservatorija.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		9855DE242A7A9E48003F347A /* Vuforia */ = {
+			isa = PBXGroup;
+			children = (
+				9855DE252A7A9E48003F347A /* Kosmosas.dat */,
+				9855DE262A7A9E48003F347A /* Kosmosas.xml */,
+			);
+			path = Vuforia;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +359,8 @@
 				97C146EA1CF9000F007C117D /* Sources */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
-				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				9855DDF62A7A9DE5003F347A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,7 +455,6 @@
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
-				9855DDEF2A7A8C9E003F347A /* Data in Resources */,
 				9855DDD82A7A87FD003F347A /* UnityLibrary in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
