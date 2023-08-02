@@ -8,20 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
-		2C79E94205C1856024F5FF4A /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641F44241555290AAC67FC42 /* Pods_Runner.framework */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		9855DDD82A7A87FD003F347A /* UnityLibrary in Resources */ = {isa = PBXBuildFile; fileRef = 9855DDD72A7A87FD003F347A /* UnityLibrary */; };
-		9855DDF82A7A9E1A003F347A /* VuforiaEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */; };
-		9855DDF92A7A9E1A003F347A /* VuforiaEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9855DDFB2A7A9E2D003F347A /* UnityDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */; };
-		9855DDFC2A7A9E2D003F347A /* UnityDriver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		986AF3EE2A7B042100265E3B /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986AF3ED2A7B040700265E3B /* UnityFramework.framework */; };
-		986AF3EF2A7B042100265E3B /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 986AF3ED2A7B040700265E3B /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		986AF3FC2A7B0AC000265E3B /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641F44241555290AAC67FC42 /* Pods_Runner.framework */; };
+		986AF3FF2A7B0B3B00265E3B /* Runner.app in Resources */ = {isa = PBXBuildFile; fileRef = 97C146EE1CF9000F007C117D /* Runner.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,27 +26,6 @@
 			remoteGlobalIDString = 97C146ED1CF9000F007C117D;
 			remoteInfo = Runner;
 		};
-		986AF3E82A7B040700265E3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 986AF3E22A7B040700265E3B /* Unity-iPhone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
-			remoteInfo = "Unity-iPhone";
-		};
-		986AF3EA2A7B040700265E3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 986AF3E22A7B040700265E3B /* Unity-iPhone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5623C57317FDCB0800090B9E;
-			remoteInfo = "Unity-iPhone Tests";
-		};
-		986AF3EC2A7B040700265E3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 986AF3E22A7B040700265E3B /* Unity-iPhone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9D25AB9D213FB47800354C27;
-			remoteInfo = UnityFramework;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,9 +35,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9855DDFC2A7A9E2D003F347A /* UnityDriver.framework in Embed Frameworks */,
-				9855DDF92A7A9E1A003F347A /* VuforiaEngine.framework in Embed Frameworks */,
-				986AF3EF2A7B042100265E3B /* UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,43 +60,6 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9855DDD72A7A87FD003F347A /* UnityLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UnityLibrary; sourceTree = "<group>"; };
-		9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VuforiaEngine.framework; path = UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework; sourceTree = "<group>"; };
-		9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityDriver.framework; path = UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/UnityDriver.framework; sourceTree = "<group>"; };
-		9855DDFF2A7A9E48003F347A /* TypesInScenes.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TypesInScenes.xml; sourceTree = "<group>"; };
-		9855DE002A7A9E48003F347A /* SerializedTypes.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SerializedTypes.xml; sourceTree = "<group>"; };
-		9855DE022A7A9E48003F347A /* Newtonsoft.Json.dll-resources.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Newtonsoft.Json.dll-resources.dat"; sourceTree = "<group>"; };
-		9855DE032A7A9E48003F347A /* mscorlib.dll-resources.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mscorlib.dll-resources.dat"; sourceTree = "<group>"; };
-		9855DE042A7A9E48003F347A /* UnityLinkerToEditorData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UnityLinkerToEditorData.json; sourceTree = "<group>"; };
-		9855DE072A7A9E48003F347A /* machine.config */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = machine.config; sourceTree = "<group>"; };
-		9855DE082A7A9E48003F347A /* EditorToUnityLinkerData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EditorToUnityLinkerData.json; sourceTree = "<group>"; };
-		9855DE092A7A9E48003F347A /* response.rsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = response.rsp; sourceTree = "<group>"; };
-		9855DE0B2A7A9E48003F347A /* global-metadata.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "global-metadata.dat"; sourceTree = "<group>"; };
-		9855DE0C2A7A9E48003F347A /* globalgamemanagers */ = {isa = PBXFileReference; lastKnownFileType = file; path = globalgamemanagers; sourceTree = "<group>"; };
-		9855DE0D2A7A9E48003F347A /* boot.config */ = {isa = PBXFileReference; lastKnownFileType = text; path = boot.config; sourceTree = "<group>"; };
-		9855DE0E2A7A9E48003F347A /* RuntimeInitializeOnLoads.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RuntimeInitializeOnLoads.json; sourceTree = "<group>"; };
-		9855DE0F2A7A9E48003F347A /* resources.assets */ = {isa = PBXFileReference; lastKnownFileType = file; path = resources.assets; sourceTree = "<group>"; };
-		9855DE112A7A9E48003F347A /* unity_builtin_extra */ = {isa = PBXFileReference; lastKnownFileType = file; path = unity_builtin_extra; sourceTree = "<group>"; };
-		9855DE122A7A9E48003F347A /* unity default resources */ = {isa = PBXFileReference; lastKnownFileType = file; path = "unity default resources"; sourceTree = "<group>"; };
-		9855DE132A7A9E48003F347A /* ScriptingAssemblies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ScriptingAssemblies.json; sourceTree = "<group>"; };
-		9855DE142A7A9E48003F347A /* sharedassets0.assets.resS */ = {isa = PBXFileReference; lastKnownFileType = file; path = sharedassets0.assets.resS; sourceTree = "<group>"; };
-		9855DE152A7A9E48003F347A /* sharedassets0.assets */ = {isa = PBXFileReference; lastKnownFileType = file; path = sharedassets0.assets; sourceTree = "<group>"; };
-		9855DE162A7A9E48003F347A /* level0.resS */ = {isa = PBXFileReference; lastKnownFileType = text; path = level0.resS; sourceTree = "<group>"; };
-		9855DE172A7A9E48003F347A /* level0 */ = {isa = PBXFileReference; lastKnownFileType = file; path = level0; sourceTree = "<group>"; };
-		9855DE1A2A7A9E48003F347A /* struve.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = struve.mp4; sourceTree = "<group>"; };
-		9855DE1B2A7A9E48003F347A /* tekstilesInstitutas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tekstilesInstitutas.mp4; sourceTree = "<group>"; };
-		9855DE1C2A7A9E48003F347A /* vepriai.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vepriai.mp4; sourceTree = "<group>"; };
-		9855DE1D2A7A9E48003F347A /* zemaitkiemis.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zemaitkiemis.mp4; sourceTree = "<group>"; };
-		9855DE1E2A7A9E48003F347A /* ciurlionioObservatorija.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ciurlionioObservatorija.mp4; sourceTree = "<group>"; };
-		9855DE1F2A7A9E48003F347A /* birutesKalnas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = birutesKalnas.mp4; sourceTree = "<group>"; };
-		9855DE202A7A9E48003F347A /* nanoAvionics.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nanoAvionics.mp4; sourceTree = "<group>"; };
-		9855DE212A7A9E48003F347A /* observatorijaKaune.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = observatorijaKaune.mp4; sourceTree = "<group>"; };
-		9855DE222A7A9E48003F347A /* andrioniskis.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = andrioniskis.mp4; sourceTree = "<group>"; };
-		9855DE232A7A9E48003F347A /* vuObservatorija.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vuObservatorija.mp4; sourceTree = "<group>"; };
-		9855DE252A7A9E48003F347A /* Kosmosas.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kosmosas.dat; sourceTree = "<group>"; };
-		9855DE262A7A9E48003F347A /* Kosmosas.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Kosmosas.xml; sourceTree = "<group>"; };
-		9855DE272A7A9E48003F347A /* globalgamemanagers.assets */ = {isa = PBXFileReference; lastKnownFileType = file; path = globalgamemanagers.assets; sourceTree = "<group>"; };
-		986AF3E22A7B040700265E3B /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "../UnityLibrary/Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
 		A6B801814DD22352D127CB58 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,10 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9855DDFB2A7A9E2D003F347A /* UnityDriver.framework in Frameworks */,
-				9855DDF82A7A9E1A003F347A /* VuforiaEngine.framework in Frameworks */,
-				2C79E94205C1856024F5FF4A /* Pods_Runner.framework in Frameworks */,
-				986AF3EE2A7B042100265E3B /* UnityFramework.framework in Frameworks */,
+				986AF3FC2A7B0AC000265E3B /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,13 +97,12 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
-				9855DDD72A7A87FD003F347A /* UnityLibrary */,
+				AE3E2268F5365EE430B98263 /* Pods */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
 				97C146EF1CF9000F007C117D /* Products */,
 				331C8082294A63A400263BE5 /* RunnerTests */,
 				9855DDD92A7A8B4E003F347A /* Frameworks */,
-				AE3E2268F5365EE430B98263 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,8 +118,6 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				986AF3E22A7B040700265E3B /* Unity-iPhone.xcodeproj */,
-				9855DDFD2A7A9E48003F347A /* Data */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
@@ -206,133 +133,9 @@
 		9855DDD92A7A8B4E003F347A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */,
-				9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */,
 				641F44241555290AAC67FC42 /* Pods_Runner.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9855DDFD2A7A9E48003F347A /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				9855DDFE2A7A9E48003F347A /* Managed */,
-				9855DE0C2A7A9E48003F347A /* globalgamemanagers */,
-				9855DE0D2A7A9E48003F347A /* boot.config */,
-				9855DE0E2A7A9E48003F347A /* RuntimeInitializeOnLoads.json */,
-				9855DE0F2A7A9E48003F347A /* resources.assets */,
-				9855DE102A7A9E48003F347A /* Resources */,
-				9855DE122A7A9E48003F347A /* unity default resources */,
-				9855DE132A7A9E48003F347A /* ScriptingAssemblies.json */,
-				9855DE142A7A9E48003F347A /* sharedassets0.assets.resS */,
-				9855DE152A7A9E48003F347A /* sharedassets0.assets */,
-				9855DE162A7A9E48003F347A /* level0.resS */,
-				9855DE172A7A9E48003F347A /* level0 */,
-				9855DE182A7A9E48003F347A /* Raw */,
-				9855DE272A7A9E48003F347A /* globalgamemanagers.assets */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		9855DDFE2A7A9E48003F347A /* Managed */ = {
-			isa = PBXGroup;
-			children = (
-				9855DDFF2A7A9E48003F347A /* TypesInScenes.xml */,
-				9855DE002A7A9E48003F347A /* SerializedTypes.xml */,
-				9855DE012A7A9E48003F347A /* Resources */,
-				9855DE042A7A9E48003F347A /* UnityLinkerToEditorData.json */,
-				9855DE052A7A9E48003F347A /* mono */,
-				9855DE082A7A9E48003F347A /* EditorToUnityLinkerData.json */,
-				9855DE092A7A9E48003F347A /* response.rsp */,
-				9855DE0A2A7A9E48003F347A /* Metadata */,
-			);
-			path = Managed;
-			sourceTree = "<group>";
-		};
-		9855DE012A7A9E48003F347A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9855DE022A7A9E48003F347A /* Newtonsoft.Json.dll-resources.dat */,
-				9855DE032A7A9E48003F347A /* mscorlib.dll-resources.dat */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		9855DE052A7A9E48003F347A /* mono */ = {
-			isa = PBXGroup;
-			children = (
-				9855DE062A7A9E48003F347A /* 4.0 */,
-			);
-			path = mono;
-			sourceTree = "<group>";
-		};
-		9855DE062A7A9E48003F347A /* 4.0 */ = {
-			isa = PBXGroup;
-			children = (
-				9855DE072A7A9E48003F347A /* machine.config */,
-			);
-			path = 4.0;
-			sourceTree = "<group>";
-		};
-		9855DE0A2A7A9E48003F347A /* Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				9855DE0B2A7A9E48003F347A /* global-metadata.dat */,
-			);
-			path = Metadata;
-			sourceTree = "<group>";
-		};
-		9855DE102A7A9E48003F347A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9855DE112A7A9E48003F347A /* unity_builtin_extra */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		9855DE182A7A9E48003F347A /* Raw */ = {
-			isa = PBXGroup;
-			children = (
-				9855DE192A7A9E48003F347A /* Video */,
-				9855DE242A7A9E48003F347A /* Vuforia */,
-			);
-			path = Raw;
-			sourceTree = "<group>";
-		};
-		9855DE192A7A9E48003F347A /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				9855DE1A2A7A9E48003F347A /* struve.mp4 */,
-				9855DE1B2A7A9E48003F347A /* tekstilesInstitutas.mp4 */,
-				9855DE1C2A7A9E48003F347A /* vepriai.mp4 */,
-				9855DE1D2A7A9E48003F347A /* zemaitkiemis.mp4 */,
-				9855DE1E2A7A9E48003F347A /* ciurlionioObservatorija.mp4 */,
-				9855DE1F2A7A9E48003F347A /* birutesKalnas.mp4 */,
-				9855DE202A7A9E48003F347A /* nanoAvionics.mp4 */,
-				9855DE212A7A9E48003F347A /* observatorijaKaune.mp4 */,
-				9855DE222A7A9E48003F347A /* andrioniskis.mp4 */,
-				9855DE232A7A9E48003F347A /* vuObservatorija.mp4 */,
-			);
-			path = Video;
-			sourceTree = "<group>";
-		};
-		9855DE242A7A9E48003F347A /* Vuforia */ = {
-			isa = PBXGroup;
-			children = (
-				9855DE252A7A9E48003F347A /* Kosmosas.dat */,
-				9855DE262A7A9E48003F347A /* Kosmosas.xml */,
-			);
-			path = Vuforia;
-			sourceTree = "<group>";
-		};
-		986AF3E32A7B040700265E3B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				986AF3E92A7B040700265E3B /* Kosmosas.app */,
-				986AF3EB2A7B040700265E3B /* Unity-iPhone Tests.xctest */,
-				986AF3ED2A7B040700265E3B /* UnityFramework.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		AE3E2268F5365EE430B98263 /* Pods */ = {
@@ -418,12 +221,6 @@
 			mainGroup = 97C146E51CF9000F007C117D;
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 986AF3E32A7B040700265E3B /* Products */;
-					ProjectRef = 986AF3E22A7B040700265E3B /* Unity-iPhone.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
@@ -431,30 +228,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		986AF3E92A7B040700265E3B /* Kosmosas.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Kosmosas.app;
-			remoteRef = 986AF3E82A7B040700265E3B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		986AF3EB2A7B040700265E3B /* Unity-iPhone Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Unity-iPhone Tests.xctest";
-			remoteRef = 986AF3EA2A7B040700265E3B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		986AF3ED2A7B040700265E3B /* UnityFramework.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = UnityFramework.framework;
-			remoteRef = 986AF3EC2A7B040700265E3B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		331C807F294A63A400263BE5 /* Resources */ = {
@@ -470,9 +243,9 @@
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
-				9855DDD82A7A87FD003F347A /* UnityLibrary in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+				986AF3FF2A7B0B3B00265E3B /* Runner.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -676,14 +449,7 @@
 					"$(PROJECT_DIR)/UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework",
 				);
 				MARKETING_VERSION = 1.0.10;
-				OTHER_LDFLAGS = (
-					"-Wl,",
-					"-U,",
-					_OnUnityMessage,
-					"-Wl,",
-					"-U,",
-					_OnUnitySceneLoaded,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = lt.pro3D.kosmosas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -788,7 +554,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -838,7 +604,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -875,14 +641,7 @@
 					"$(PROJECT_DIR)/UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework",
 				);
 				MARKETING_VERSION = 1.0.10;
-				OTHER_LDFLAGS = (
-					"-Wl,",
-					"-U,",
-					_OnUnityMessage,
-					"-Wl,",
-					"-U,",
-					_OnUnitySceneLoaded,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.kosmosas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -899,6 +658,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = "";
@@ -920,14 +680,7 @@
 					"$(PROJECT_DIR)/UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework",
 				);
 				MARKETING_VERSION = 1.0.10;
-				OTHER_LDFLAGS = (
-					"-Wl,",
-					"-U,",
-					_OnUnityMessage,
-					"-Wl,",
-					"-U,",
-					_OnUnitySceneLoaded,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = lt.pro3D.kosmosas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
