@@ -52,6 +52,13 @@
 			remoteGlobalIDString = 9D25AB9D213FB47800354C27;
 			remoteInfo = UnityFramework;
 		};
+		9855DE2A2A7AA411003F347A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9855DDDA2A7A8B4F003F347A /* Unity-iPhone.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D25AB9C213FB47800354C27;
+			remoteInfo = UnityFramework;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,9 +95,7 @@
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9855DDD72A7A87FD003F347A /* UnityLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UnityLibrary; sourceTree = "<group>"; };
 		9855DDDA2A7A8B4F003F347A /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "UnityLibrary/Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
-		9855DDE82A7A8B90003F347A /* VuforiaEngine */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = VuforiaEngine; path = UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework/VuforiaEngine; sourceTree = "<group>"; };
 		9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VuforiaEngine.framework; path = UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework; sourceTree = "<group>"; };
-		9855DDF72A7A9DF8003F347A /* com.ptc.vuforia.engine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = com.ptc.vuforia.engine; path = UnityLibrary/Frameworks/com.ptc.vuforia.engine; sourceTree = "<group>"; };
 		9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityDriver.framework; path = UnityLibrary/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/UnityDriver.framework; sourceTree = "<group>"; };
 		9855DDFF2A7A9E48003F347A /* TypesInScenes.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TypesInScenes.xml; sourceTree = "<group>"; };
 		9855DE002A7A9E48003F347A /* SerializedTypes.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SerializedTypes.xml; sourceTree = "<group>"; };
@@ -201,9 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */,
-				9855DDF72A7A9DF8003F347A /* com.ptc.vuforia.engine */,
 				9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */,
-				9855DDE82A7A8B90003F347A /* VuforiaEngine */,
 				9855DDDA2A7A8B4F003F347A /* Unity-iPhone.xcodeproj */,
 			);
 			name = Frameworks;
@@ -365,6 +368,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9855DE2B2A7AA411003F347A /* PBXTargetDependency */,
 			);
 			name = Runner;
 			productName = Runner;
@@ -522,6 +526,11 @@
 			isa = PBXTargetDependency;
 			target = 97C146ED1CF9000F007C117D /* Runner */;
 			targetProxy = 331C8085294A63A400263BE5 /* PBXContainerItemProxy */;
+		};
+		9855DE2B2A7AA411003F347A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnityFramework;
+			targetProxy = 9855DE2A2A7AA411003F347A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
