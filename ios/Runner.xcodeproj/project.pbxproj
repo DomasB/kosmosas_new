@@ -21,7 +21,6 @@
 		9855DDF92A7A9E1A003F347A /* VuforiaEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDEB2A7A8BD6003F347A /* VuforiaEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9855DDFB2A7A9E2D003F347A /* UnityDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */; };
 		9855DDFC2A7A9E2D003F347A /* UnityDriver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9855DDFA2A7A9E2C003F347A /* UnityDriver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9855DE292A7A9EA5003F347A /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 9855DE282A7A9EA5003F347A /* Data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,7 +125,6 @@
 		9855DE252A7A9E48003F347A /* Kosmosas.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kosmosas.dat; sourceTree = "<group>"; };
 		9855DE262A7A9E48003F347A /* Kosmosas.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Kosmosas.xml; sourceTree = "<group>"; };
 		9855DE272A7A9E48003F347A /* globalgamemanagers.assets */ = {isa = PBXFileReference; lastKnownFileType = file; path = globalgamemanagers.assets; sourceTree = "<group>"; };
-		9855DE282A7A9EA5003F347A /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,7 +222,6 @@
 		9855DDFD2A7A9E48003F347A /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				9855DE282A7A9EA5003F347A /* Data */,
 				9855DDFE2A7A9E48003F347A /* Managed */,
 				9855DE0C2A7A9E48003F347A /* globalgamemanagers */,
 				9855DE0D2A7A9E48003F347A /* boot.config */,
@@ -458,7 +455,6 @@
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
-				9855DE292A7A9EA5003F347A /* Data in Resources */,
 				9855DDD82A7A87FD003F347A /* UnityLibrary in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
